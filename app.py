@@ -7,6 +7,7 @@ def menu():
     st.sidebar.page_link("pages/them_du_lieu_test.py", label="Thêm Dữ Liệu Tập Test")
     st.sidebar.page_link("pages\du_doan_model.py", label="Phân Tích Dự Đoán")
     
+    
 if __name__ == "__main__":
     st.set_page_config(
         page_title="Phân tích giá nhà ở tại Thành Phố Hồ Chí Minh",
@@ -25,7 +26,7 @@ if __name__ == "__main__":
         unsafe_allow_html=True,
     )
 
-    st.title("Phân tích giá nhà ở tại Thành Phố Hồ Chí Minh")  # tên sản phẩm
+    st.title("Phân tích giá nhà ở Hà Nội")  # tên sản phẩm
     st.header("Chức năng")
     st.markdown(
         """
